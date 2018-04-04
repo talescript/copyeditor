@@ -1036,7 +1036,7 @@ body.base-modal.open {
 }
 
 .card {
-    background-color: #5d7ca4;
+    background-color: #bfcfe3;
     color: rgb(34, 29, 29);
 }
 
@@ -1068,7 +1068,6 @@ body.base-modal.open {
 @media (max-width: 600px) {
     .features-text p {
         margin: 1.5rem;
-        text-align: center;
     }
 }
 
