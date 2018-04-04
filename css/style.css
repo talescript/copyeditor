@@ -1098,10 +1098,8 @@ body.base-modal.open {
     (-webkit-initial-letter: 3) {
         .initial-let::first-letter {
             color: #c14953;
-            font-weight: 800;
             -webkit-initial-letter: 3;
             initial-letter: 3;
-            
         }
 }
 
