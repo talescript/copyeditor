@@ -1094,14 +1094,24 @@ body.base-modal.open {
     margin-bottom: 0.5rem;
 }
 
+.initial-let:first-child:first-letter {
+    color: #c14953;
+    float: left;
+    font-size: 70px;
+    font-weight: 800;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
 @supports (initial-letter: 2) or 
     (-webkit-initial-letter: 2) {
         .initial-let::first-letter {
+            float: none;
             color: #c14953;
             font-weight: 800;
             -webkit-initial-letter: 2;
             initial-letter: 2;
-            
         }
 }
 
