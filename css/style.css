@@ -1104,8 +1104,8 @@ body.base-modal.open {
     padding-left: 3px;
 }
 
-@supports (initial-letter: 2) or 
-    (-webkit-initial-letter: 2) {
+@supports (initial-letter: 3 2) or 
+    (-webkit-initial-letter: 3 2) {
         .initial-let:first-child:first-letter {
             float: none;
             font-size: initial;
@@ -1114,8 +1114,8 @@ body.base-modal.open {
         .initial-let::first-letter {           
             color: #c14953;
             font-weight: 800;
-            -webkit-initial-letter: 2;
-            initial-letter: 2;
+            -webkit-initial-letter: 3;
+            initial-letter: 3;
         }
 }
 
