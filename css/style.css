@@ -1094,13 +1094,14 @@ body.base-modal.open {
     margin-bottom: 0.5rem;
 }
 
-@supports (initial-letter: 3 2) or 
-    (-webkit-initial-letter: 3 2) {
+@supports (initial-letter: 3) or 
+    (-webkit-initial-letter: 3) {
         .initial-let::first-letter {
             color: #c14953;
             font-weight: 800;
             -webkit-initial-letter: 3;
             initial-letter: 3;
+            
         }
 }
 
