@@ -1057,8 +1057,8 @@ body.base-modal.open {
 }
 
 .features-text {
-    -webkit-columns: 3 250px;
-    columns: 3 250px;
+    -webkit-columns: 2 250px;
+    columns: 2 250px;
     -webkit-column-rule: 1px solid #333;
             column-rule: 1px solid #333;
     -webkit-column-gap: 2.5rem;
@@ -1121,6 +1121,10 @@ body.base-modal.open {
 
 svg {
     width: 15%;
+}
+
+object {
+    margin: 1rem 0 2rem;
 }
 
 .story-container {
