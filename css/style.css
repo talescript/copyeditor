@@ -1106,8 +1106,12 @@ body.base-modal.open {
 
 @supports (initial-letter: 2) or 
     (-webkit-initial-letter: 2) {
-        .initial-let::first-letter {
+        .initial-let:first-child:first-letter {
             float: none;
+            font-size: initial;
+            padding: initial;
+        }
+        .initial-let::first-letter {           
             color: #c14953;
             font-weight: 800;
             -webkit-initial-letter: 2;
