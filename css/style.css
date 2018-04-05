@@ -1224,13 +1224,3 @@ object,
     margin: 1rem auto 2rem;
 }
 
-.card.one {
-    background-color: #efecef;
-} 
-.card.two {
-    background-color: #e6edf6;
-}
-
-.card.three {
-    background-color: #fff04d;
-}
