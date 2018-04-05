@@ -936,8 +936,8 @@ body.base-modal.open {
 }
 
 .base-modal--content--style {
-    background: #62719F;
-    color: #EFEDEB;
+    background: #d2c6d5;
+    color: #3f024e;
 }
 
 /** BEM
@@ -1116,6 +1116,7 @@ body.base-modal.open {
     color: #3f024e;
 }
 
+
 .nav-logo a,
 .about-item,
 .card-content__descr {
@@ -1124,7 +1125,6 @@ body.base-modal.open {
 
 .story-text {
     margin-bottom: 2rem;
-
 }
 
 .story-text p {
@@ -1202,6 +1202,12 @@ form label {
 
 form input {
     margin-bottom: 1rem;
+}
+
+input,
+textarea {
+    padding: 0.3rem 0.2rem;
+    
 }
 
 .form-btn {
