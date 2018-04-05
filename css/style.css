@@ -137,7 +137,7 @@ h1, h2, h3, h4 {
 }
 
 .x-space {
-    margin-bottom: 6em;
+    margin-bottom: 5em;
 }
 
 /**
@@ -848,10 +848,10 @@ body.base-modal.open {
     overflow: hidden;
 }
 
-/* .base-modal--header,
+
 .base-modal--footer {
-    padding: 0.2rem 0.5rem;
-} */
+    padding: 0.5rem 0;
+} 
 
 .base-modal--content {
     height: 100%;
@@ -1003,7 +1003,7 @@ body.base-modal.open {
 }
 
 .about {
-    padding: 8rem 0 3rem;
+    padding: 8rem 0 2rem;
     color: #000;
 }
 
@@ -1025,7 +1025,7 @@ body.base-modal.open {
 }
 
 .product-style {
-    min-height: 100vh;
+    min-height: 70vh;
     padding-bottom: 8rem;
 }
 
@@ -1081,20 +1081,21 @@ body.base-modal.open {
 
 .features-text p,
 .story-text p {
-    font-size: 1.15rem;
+    font-size: 1.35rem;
     line-height: 1.3;
     color: #540b66;
 }
 
 .story-text {
     margin-bottom: 2rem;
+
 }
 
 .story-text p {
     margin-bottom: 0.5rem;
 }
 
-.initial-let:first-child:first-letter {
+.features-text p::first-letter {
     color: #c14953;
     float: left;
     font-size: 70px;
@@ -1102,6 +1103,21 @@ body.base-modal.open {
     padding-top: 4px;
     padding-right: 8px;
     padding-left: 3px;
+}
+
+.features-text p {
+    font-size: 40px;
+    line-height: 1.2;
+
+}
+
+@media (max-width: 600px) {
+    .features-text p {
+        font-size: 20px;
+    }
+    .features-text p:first-child {
+        margin-bottom: 3rem;
+    }
 }
 
 @supports (initial-letter: 3 2) or 
@@ -1117,14 +1133,6 @@ body.base-modal.open {
             -webkit-initial-letter: 3;
             initial-letter: 3;
         }
-}
-
-svg {
-    width: 15%;
-}
-
-object {
-    margin: 1rem 0 2rem;
 }
 
 .story-container {
@@ -1162,4 +1170,18 @@ form input {
 
 .form-btn {
     margin: 1rem auto 0;
+}
+
+svg {
+    width: 13%;
+}
+
+object,
+.object-size {
+    width: 25%;
+    margin: 1rem auto 2rem;
+}
+
+.card {
+    background-color: #efecef;
 }
