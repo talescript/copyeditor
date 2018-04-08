@@ -91,10 +91,6 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-p {
-    margin-bottom: 1.3em;
-}
-
 h1, h2, h3, h4 {
     font-weight: inherit;
     line-height: 1.2;
@@ -311,12 +307,16 @@ nav ul li a,
     min-height: 100vh;
 }
 
-.footer {
-    height: 15vmin;
+@media (max-width: 650px) {
+    .hero {
+        min-height: 70vh;
+    }
 }
 
-.hero-title {
-    margin-bottom: 1rem;
+
+
+.footer {
+    height: 15vmin;
 }
 
 .hero-description {
@@ -369,9 +369,10 @@ nav ul li a,
     }
 }
 
-
 .hero-title {
     font-size: 3rem;
+    margin-bottom: 0.5rem;
+    line-height: 1;
 }
 
 .hero--color,
@@ -685,7 +686,6 @@ body.modal.open {
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: auto;
     text-align: left;
-    font-size: .8em;
 }
 
 .card__img {
@@ -700,8 +700,7 @@ body.modal.open {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0 1.618rem;
-    padding-bottom: 1.234em;
+    margin: 1rem 2rem;
 }
 
 .card-content__title {
@@ -1024,17 +1023,20 @@ body.base-modal.open {
 /**
  * STYLING
  */
-.hero-title {
-    margin: 0;
-}
 
 .x-clip-space {
     padding-top: 5rem;
 }
 
 .about {
-    padding: 8rem 0 2rem;
+    padding: 6rem 0 2rem;
     color: #000;
+}
+
+@media (max-width: 650px) {
+    .about {
+        padding: 4rem 0 2rem;
+    }
 }
 
 .hero-title, 
@@ -1050,12 +1052,13 @@ body.base-modal.open {
 }
 
 .about p:first-child {
-    margin: 0;
+    margin: 0 0.4rem 0.6rem;
     font-size: 1.3rem;
+    line-height: 1.1;
 }
 
 .product-style {
-    min-height: 70vh;
+    min-height: 45vh;
     padding-bottom: 8rem;
 }
 
