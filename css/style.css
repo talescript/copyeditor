@@ -133,7 +133,13 @@ h1, h2, h3, h4 {
 }
 
 .x-space {
-    margin-bottom: 5em;
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 600px) {
+    .x-space {
+        margin-bottom: 4rem;
+    }
 }
 
 /**
@@ -1062,6 +1068,12 @@ body.base-modal.open {
     padding-bottom: 8rem;
 }
 
+@media (max-width: 600px) {
+    .product-style {
+        padding-bottom: 6rem;
+    }
+}
+
 .product-style,
 .about,
 .story {
@@ -1085,7 +1097,7 @@ body.base-modal.open {
 
 @media (max-width: 600px) {
     .features {
-        padding-top: 6rem;
+        padding-top: 4rem;
     }
 }
 
