@@ -313,7 +313,13 @@ nav ul li a,
     min-height: 100vh;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 650px) and (orientation: portrait) {
+    .hero {
+        min-height: 70vmin;
+    }
+}
+
+@media (max-width: 650px) and (orientation: landscape) {
     .hero {
         min-height: 70vmax;
     }
