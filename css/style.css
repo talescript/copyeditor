@@ -1239,6 +1239,7 @@ svg {
 }
 
 object {
+    height: auto;
     width: 25%;
     margin: 0 auto;
 }
