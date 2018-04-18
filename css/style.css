@@ -712,7 +712,7 @@ body.modal.open {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 1rem 2rem;
+    margin: 0 1rem;
 }
 
 .card-content__title {
@@ -1236,4 +1236,10 @@ textarea {
 
 .card {
     padding: 1rem 0;
+}
+
+object {
+    width: 30%;
+    margin: 0 auto 1rem;
+
 }
