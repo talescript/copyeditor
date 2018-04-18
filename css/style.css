@@ -1237,13 +1237,3 @@ textarea {
 .card {
     padding: 1rem 0;
 }
-
-svg {
-    width: 13%;
-}
-
-object {
-    height: auto;
-    width: 25%;
-    margin: 0 auto;
-}
