@@ -1240,6 +1240,7 @@ textarea {
 
 object {
     width: 30%;
+    height: auto;
     margin: 0 auto 1rem;
 
 }
