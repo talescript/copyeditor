@@ -1238,9 +1238,10 @@ textarea {
     padding: 1rem 0;
 }
 
-object {
-    width: 30%;
-    height: auto;
+svg {
     margin: 0 auto 1rem;
+}
 
+svg text {
+    display: none;
 }
