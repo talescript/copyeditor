@@ -1242,6 +1242,16 @@ svg {
     margin: 0 auto 1rem;
 }
 
+.hand-svg {
+    width: 15%;
+}
+
+@media (max-width: 600px) {
+    .hand-svg {
+        width: 30%;
+    }
+}
+
 svg text {
     display: none;
 }
