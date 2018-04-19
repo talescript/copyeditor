@@ -722,10 +722,6 @@ body.modal.open {
     color: #c0314f;
 }
 
-.card-content__descr {
-    font-size: 0.9rem;
-}
-
 .card-content .card-btn {
     margin: 0 auto;
 }
